@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GuanGong'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '属于第一车网'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'miaoruiyuan' => 'miao201110@gmail.com' }
-  s.source           = { :git => 'https://github.com/miaoruiyuan/GuanGong.git', :tag => s.version.to_s }
+  s.source           = { :git => '/Users/mry/Desktop/GuanGong', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

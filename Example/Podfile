@@ -9,6 +9,6 @@ target 'GuanGong_Example' do
   target 'GuanGong_Tests' do
     inherit! :search_paths
 
-    pod 'GuanGong', '~> 1.0.2'
+    pod 'GuanGong'
   end
 end
