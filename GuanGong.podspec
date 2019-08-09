@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GuanGong'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GuanGong.'
+  s.version          = '1.0.0'
+  s.summary          = '属于第一车网'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'GuanGong/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'GuanGong' => ['GuanGong/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'GuanGong' => ['GuanGong/Assets']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'GuanGong/Classes/GGHeader.h'
+  s.frameworks = 'UIKit'
+  #s.dependency 'YYKit',
 end
