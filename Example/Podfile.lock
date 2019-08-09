@@ -1,5 +1,5 @@
 PODS:
-  - GuanGong (1.0.2)
+  - GuanGong (1.0.3)
 
 DEPENDENCIES:
   - GuanGong (~> 1.0.2)
@@ -9,7 +9,7 @@ SPEC REPOS:
     - GuanGong
 
 SPEC CHECKSUMS:
-  GuanGong: e1fd4cf1281ecd3015db660d1856af30bfa0bcfa
+  GuanGong: 945b422193c3f8947fd37dfcbf304986901c6963
 
 PODFILE CHECKSUM: efb9a3f51f01a1884a79f62f26c8904ab43a1034
 
