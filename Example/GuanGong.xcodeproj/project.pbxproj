@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CF34ACC7B06BBF5CD81D9A7 /* libPods-GuanGong_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA3FD325B09FE8F693279C /* libPods-GuanGong_Example.a */; };
+		4A05CD41141DE1AE5F71F780 /* libPods-GuanGong_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C78C4A69F41BD6A06E2A2193 /* libPods-GuanGong_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9C521A8521D0DF45C80122DA /* Pods_GuanGong_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D4C06639040E2E67959AD6 /* Pods_GuanGong_Tests.framework */; };
-		BD985D65CBB211D6C29A3719 /* Pods_GuanGong_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC5708CADB3C1B02CB6348F /* Pods_GuanGong_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12D4C06639040E2E67959AD6 /* Pods_GuanGong_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuanGong_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC2E3E2ACDECF1D4360B336 /* Pods-GuanGong_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanGong_Example.debug.xcconfig"; path = "Target Support Files/Pods-GuanGong_Example/Pods-GuanGong_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		32C013027F60F8CE8A968DC8 /* Pods-GuanGong_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanGong_Example.release.xcconfig"; path = "Target Support Files/Pods-GuanGong_Example/Pods-GuanGong_Example.release.xcconfig"; sourceTree = "<group>"; };
 		568C11EF3914777D04D8D6C9 /* Pods-GuanGong_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanGong_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GuanGong_Tests/Pods-GuanGong_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95648D036B4C8E80ECB5C33F /* Pods-GuanGong_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanGong_Tests.release.xcconfig"; path = "Target Support Files/Pods-GuanGong_Tests/Pods-GuanGong_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CFC5708CADB3C1B02CB6348F /* Pods_GuanGong_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuanGong_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACA3FD325B09FE8F693279C /* libPods-GuanGong_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuanGong_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78C4A69F41BD6A06E2A2193 /* libPods-GuanGong_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuanGong_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C39E6F76E9314CEF45FC78 /* GuanGong.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GuanGong.podspec; path = ../GuanGong.podspec; sourceTree = "<group>"; };
 		F62DCE56FC2FF398656E429A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				BD985D65CBB211D6C29A3719 /* Pods_GuanGong_Example.framework in Frameworks */,
+				2CF34ACC7B06BBF5CD81D9A7 /* libPods-GuanGong_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9C521A8521D0DF45C80122DA /* Pods_GuanGong_Tests.framework in Frameworks */,
+				4A05CD41141DE1AE5F71F780 /* libPods-GuanGong_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				CFC5708CADB3C1B02CB6348F /* Pods_GuanGong_Example.framework */,
-				12D4C06639040E2E67959AD6 /* Pods_GuanGong_Tests.framework */,
+				BACA3FD325B09FE8F693279C /* libPods-GuanGong_Example.a */,
+				C78C4A69F41BD6A06E2A2193 /* libPods-GuanGong_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +208,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				BD2FDE6F750AED37ED887870 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +226,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				A631A5465D3E590B42A0B977 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +317,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A631A5465D3E590B42A0B977 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuanGong_Tests/Pods-GuanGong_Tests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GuanGong/GuanGong.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GuanGong.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuanGong_Tests/Pods-GuanGong_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A82E32C138558215007BC2FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,24 +355,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BD2FDE6F750AED37ED887870 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GuanGong_Example/Pods-GuanGong_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GuanGong/GuanGong.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GuanGong.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuanGong_Example/Pods-GuanGong_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

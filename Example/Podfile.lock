@@ -1,16 +1,16 @@
 PODS:
-  - GuanGong (0.1.0)
+  - GuanGong (1.0.2)
 
 DEPENDENCIES:
-  - GuanGong (from `../`)
+  - GuanGong (~> 1.0.2)
 
-EXTERNAL SOURCES:
-  GuanGong:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/miaoruiyuan/GuanGong.git:
+    - GuanGong
 
 SPEC CHECKSUMS:
-  GuanGong: b1a17ba342686c4974f21592a6858eb49092978c
+  GuanGong: e1fd4cf1281ecd3015db660d1856af30bfa0bcfa
 
-PODFILE CHECKSUM: 71a56d0b12d9dbb94c5c658e73ac113415a2908f
+PODFILE CHECKSUM: efb9a3f51f01a1884a79f62f26c8904ab43a1034
 
 COCOAPODS: 1.7.2
