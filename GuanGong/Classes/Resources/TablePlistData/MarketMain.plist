@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+<!--		<dict>-->
+<!--			<key>title</key>-->
+<!--			<string>买车</string>-->
+<!--			<key>icon</key>-->
+<!--			<string>home_icon_buy_car</string>-->
+<!--		</dict>-->
+		<dict>
+			<key>title</key>
+			<string>好车抢购</string>
+			<key>icon</key>
+			<string>home_icon_buy_newcar</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>朋友代付</string>
+			<key>icon</key>
+			<string>home_icon_friend_pay</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>车辆质检</string>
+			<key>icon</key>
+			<string>home_icon_car_zhijian</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>维保查询</string>
+			<key>icon</key>
+			<string>home_icon_car_history</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>车价评估</string>
+			<key>icon</key>
+			<string>home_icon_car_gujia</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>限迁标准</string>
+			<key>icon</key>
+			<string>home_icon_car_xianqian</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>违章查询</string>
+			<key>icon</key>
+			<string>home_icon_car_weizhang</string>
+		</dict>
+        
+        <dict>
+            <key>title</key>
+            <string>VIN查询</string>
+            <key>icon</key>
+            <string>home_icon_vin_info</string>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>V金融</string>
+            <key>icon</key>
+            <string>home_icon_v_bank</string>
+        </dict>
+	</array>
+</array>
+</plist>

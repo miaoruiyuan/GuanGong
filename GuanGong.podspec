@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GuanGong'
-  s.version          = '1.0.5'
-  s.summary          = 'diyichewang'
+  s.version          = '1.0.6'
+  s.summary          = '第一车网的关二爷'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,16 +30,47 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GuanGong/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'GuanGong' => ['GuanGong/Assets/*.png']
-  # }
+  s.prefix_header_file = 'GuanGong/Classes/GGPrefixHeader.pch'
+  s.source_files = 'GuanGong/Classes/**/*.{h,m,pch,plist,json,c}'
+#  s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
 
-  s.public_header_files = 'GuanGong/Classes/Header/GGHeader.h'
+#   s.resource_bundles = {
+#     'GuanGong' => ['GuanGong/Classes/Assets.xcassets/*.png']
+#   }
+
+  s.public_header_files = 'GuanGong/Classes/**/*.h'
   s.static_framework = true
-  s.frameworks = 'UIKit', 'AVFoundation', 'Foundation'
-  
+  s.frameworks = 'UIKit', 'AVFoundation', 'Foundation','UserNotifications'
+  s.libraries = 'c++', 'z','sqlite3'
+  s.vendored_libraries = 'GuanGong/Classes/libWeChatSDK.a'
+
+#  s.vendored_frameworks = [
+#  'GuanGong/Classes/Framework/',
+#  'SOCRLib/Classes/framework/'
+#  ]
+
+  s.dependency 'FMDB'
+  s.dependency 'MBProgressHUD'
   s.dependency 'AFNetworking'
+  s.dependency 'YYKit'
+  s.dependency 'MJRefresh'
   s.dependency 'Masonry'
+  s.dependency 'BlocksKit'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'QBImagePickerController'
+  s.dependency 'ReactiveObjC'
+  s.dependency 'CYLTabBarController'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'WZLBadge'
+  s.dependency 'JDStatusBarNotification'
+  s.dependency 'UITableView+FDTemplateLayoutCell'
+  s.dependency 'Qiniu'
+  s.dependency 'PNChart'
+  s.dependency 'SDCycleScrollView'
+  s.dependency 'UMCCommon'
+  s.dependency 'UMessage'
+  s.dependency 'UMCAnalytics'
+  
+  
+  
 end

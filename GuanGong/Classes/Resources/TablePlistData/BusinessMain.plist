@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>在售</string>
+			<key>icon</key>
+			<string>sy_zaishou</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>交易中</string>
+			<key>icon</key>
+			<string>sy_jiaoyizhong</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>已售</string>
+			<key>icon</key>
+			<string>sy_yishou</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>下架</string>
+			<key>icon</key>
+			<string>sy_xiajia</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>付订金</string>
+			<key>icon</key>
+			<string>sy_dingjin</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>付尾款</string>
+			<key>icon</key>
+			<string>sy_weikuan</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>确认收货</string>
+			<key>icon</key>
+			<string>sy_shouhuo</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>退款/售后</string>
+			<key>icon</key>
+			<string>sy_tuikuan</string>
+		</dict>
+	</array>
+</array>
+</plist>

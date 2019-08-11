@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <array>
+            <dict>
+                <key>title</key>
+                <string>安全设置</string>
+                <key>canEdit</key>
+                <true/>
+                <key>cellType</key>
+                <integer>1</integer>
+                <key>propertyName</key>
+                <string></string>
+            </dict>
+        </array>
+    
+        <array>
+            <dict>
+                <key>title</key>
+                <string>清除缓存</string>
+                <key>cellType</key>
+                <integer>0</integer>
+                <key>propertyName</key>
+                <string></string>
+            </dict>
+        </array>
+        
+        <array>
+            <dict>
+                <key>title</key>
+                <string>退出登录</string>
+                <key>cellType</key>
+                <integer>0</integer>
+                <key>propertyName</key>
+                <string></string>
+            </dict>
+        </array>
+        
+    </array>
+</plist>

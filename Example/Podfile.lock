@@ -14,10 +14,77 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - GuanGong (0.1.0):
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CYLTabBarController (1.28.3):
+    - CYLTabBarController/Core (= 1.28.3)
+  - CYLTabBarController/Core (1.28.3)
+  - DZNEmptyDataSet (1.8.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GuanGong (1.0.6):
     - AFNetworking
+    - BlocksKit
+    - CYLTabBarController
+    - DZNEmptyDataSet
+    - FMDB
+    - IQKeyboardManager
+    - JDStatusBarNotification
     - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - PNChart
+    - QBImagePickerController
+    - Qiniu
+    - ReactiveObjC
+    - SDCycleScrollView
+    - "UITableView+FDTemplateLayoutCell"
+    - UMCAnalytics
+    - UMCCommon
+    - UMessage
+    - WZLBadge
+    - YYKit
+  - HappyDNS (0.3.15)
+  - IQKeyboardManager (6.4.0)
+  - JDStatusBarNotification (1.6.0)
   - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.2.0)
+  - PNChart (0.8.9):
+    - UICountingLabel (~> 1.2.0)
+  - QBImagePickerController (3.4.0)
+  - Qiniu (7.2.5):
+    - HappyDNS (~> 0.3)
+  - ReactiveObjC (3.1.1)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - UICountingLabel (1.2.0)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.1.1)
+  - UMessage (1.4.0)
+  - WZLBadge (1.2.6)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - GuanGong (from `../`)
@@ -25,7 +92,29 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - BlocksKit
+    - CYLTabBarController
+    - DZNEmptyDataSet
+    - FMDB
+    - HappyDNS
+    - IQKeyboardManager
+    - JDStatusBarNotification
     - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - PNChart
+    - QBImagePickerController
+    - Qiniu
+    - ReactiveObjC
+    - SDCycleScrollView
+    - SDWebImage
+    - UICountingLabel
+    - "UITableView+FDTemplateLayoutCell"
+    - UMCAnalytics
+    - UMCCommon
+    - UMessage
+    - WZLBadge
+    - YYKit
 
 EXTERNAL SOURCES:
   GuanGong:
@@ -33,9 +122,31 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  GuanGong: 1c33590d850d242731aadaa0c5fb8425e3c1be51
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CYLTabBarController: cd14c6260a38337600737873a57b3114c7065a8e
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GuanGong: dae87411df4f7800f98a35e12e75a0d0d5dcf98e
+  HappyDNS: 00c15e651a347206e58a20503a32a5564589b56a
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  JDStatusBarNotification: 21b616e7432284fea6eb0ce9eadc37c8038a5544
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  UMessage: f1619a28fdf03190050a67280e181dd422a980dc
+  WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 71a56d0b12d9dbb94c5c658e73ac113415a2908f
+PODFILE CHECKSUM: 78b7ca173044c20346d80d314bf73239ec6513d2
 
 COCOAPODS: 1.7.2

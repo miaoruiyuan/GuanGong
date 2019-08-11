@@ -1,0 +1,89 @@
+//
+//  GGPrefixHeader.pch
+//  GuanGong
+//
+//  Created by 苗芮源 on 16/4/19.
+//  Copyright © 2016年 iautos. All rights reserved.
+//
+
+
+
+#ifdef __OBJC__
+
+#import <Masonry/Masonry.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MJRefresh/MJRefresh.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <ReactiveObjC/RACDelegateProxy.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <YYKit/YYKit.h>
+#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/BlocksKit+UIKit.h>
+#import <QBImagePickerController/QBImagePickerController.h>
+#import <UITableView_FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h>
+#import <WZLBadge/WZLBadgeImport.h>
+#import <CYLTabBarController/CYLTabBarController.h>
+#import <AFNetworking/UIImageView+AFNetworking.h>
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+#import <UMCommon/UMCommon.h>
+#import <UMAnalytics/MobClick.h>
+
+#pragma mark - Own
+#import "GGHeader.h"
+#import "GGNavigationController.h"
+#import "GGApiManager.h"
+
+#import "PHAsset+Asset.h"
+#import "NSObject+Common.h"
+#import "UIButton+Common.h"
+#import "NSDate+Common.h"
+#import "NSString+Common.h"
+#import "NSArray+Common.h"
+#import "UIImage+Common.h"
+#import "NSString+Common.h"
+#import "UITableView+Common.h"
+#import "UIAlertController+Common.h"
+#import "UIBarButtonItem+Custom.h"
+#import "MBProgressHUD+Add.h"
+#import "GGTapImageView.h"
+#import "GGButton.h"
+
+#endif
+
+
+#ifdef DEBUG
+#define DString [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
+#define DLog(...) printf("%s: %s 第%d行: %s\n\n",[[NSString lr_stringDate] UTF8String], [DString UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+
+#else
+#define DLog(...)
+#endif
+
+
+#ifndef GGPrefixHeader_pch
+#define GGPrefixHeader_pch
+
+
+#define themeColor [UIColor colorWithHexString:@"#e54c4e"]
+#define textNormalColor [UIColor colorWithHexString:@"#2d2d2d"]
+#define TextColor [UIColor colorWithHexString:@"#141842"]
+#define textLightColor [UIColor colorWithHexString:@"#8d8d8d"]
+#define sectionColor [UIColor colorWithHexString:@"#e3e3e3"]
+#define tableBgColor [UIColor colorWithHexString:@"#f8f8f8"]
+
+
+
+//判断iphone6
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+//判断iphone6+
+#define iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define kKeyWindow [UIApplication sharedApplication].keyWindow
+#define kTipAlert(_S_, ...)     [[[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:(_S_), ##__VA_ARGS__] delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil] show]
+
+
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
+
+
+#endif /* GGPrefixHeader_pch */

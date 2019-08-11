@@ -1,0 +1,86 @@
+[
+  {
+    "bankCode": "102100099996",
+    "bankCode1": "102",
+    "bankName": "中国工商银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-gongshangyinhang-2x.png"
+  },
+  {
+    "bankCode": "103100000026",
+    "bankCode1": "103",
+    "bankName": "中国农业银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-nongyeyinhang-2x.png"
+  },
+  {
+    "bankCode": "104100000004",
+    "bankCode1": "104",
+    "bankName": "中国银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-zhongguoyinhang-2x.png"
+  },
+  {
+    "bankCode": "105100000017",
+    "bankCode1": "105",
+    "bankName": "中国建设银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-jiansheyinhang-2x.png"
+  },
+  {
+    "bankCode": "301290000007",
+    "bankCode1": "301",
+    "bankName": "交通银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-jiaotongyinhang-2x.png"
+  },
+  {
+    "bankCode": "302100011000",
+    "bankCode1": "302",
+    "bankName": "中信银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-zhongxinyinhang-2x.png"
+  },
+  {
+    "bankCode": "303100000006",
+    "bankCode1": "303",
+    "bankName": "中国光大银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-guangdayinhang-2x.png"
+  },
+  {
+    "bankCode": "305100000013",
+    "bankCode1": "305",
+    "bankName": "中国民生银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-minshengyinhang-2x.png"
+  },
+  {
+    "bankCode": "307584007998",
+    "bankCode1": "307",
+    "bankName": "平安银行（原深圳发展银行）",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-pinganyinhang-2x.png"
+  },
+  {
+    "bankCode": "308584000013",
+    "bankCode1": "308",
+    "bankName": "招商银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-zhaoshangyinhang-2x.png"
+  },
+  {
+    "bankCode": "309391000011",
+    "bankCode1": "309",
+    "bankName": "兴业银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-xingyeyinhang-2x.png"
+  },
+  {
+    "bankCode": "313100000013",
+    "bankCode1": "313",
+    "bankName": "北京银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-beijingyinhang-2x.png"
+  },
+  {
+    "bankCode": "325290000012",
+    "bankCode1": "325",
+    "bankName": "上海银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-shanghaiyinhang-2x.png"
+  },
+  {
+    "bankCode": "403100000004",
+    "bankCode1": "403",
+    "bankName": "中国邮政储蓄银行",
+    "logo": "http://photo.iautos.cn/guangong/banklogo/banklogo-youzhengyinhang-2x.png"
+  }
+]
